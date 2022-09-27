@@ -1,0 +1,36 @@
+
+body{
+text-align:center;
+color:white;
+}
+
+
+.input{
+background-color:rgba(0,0,0,0);
+border:none;
+margin:10px;
+}
+
+
+.cent{
+text-align:center;
+}
+
+#everything{
+background-image:linear-gradient(rgba(0,0,255,0.5),rgba(255,0,0,0.5));/*rgba(0,155,155,0.5));*/
+
+
+
+	width:100%;
+text-align:center;
+}
+
+
+.output{
+
+	border:1px solid black;
+
+}
+
+
+

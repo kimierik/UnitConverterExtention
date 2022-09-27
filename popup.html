@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>stuff is here</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+	<div id="everything">
+
+<h3 class="cent">Unit converter</h3>
+<input name="selector" type="radio" id="Distance" value="DISTANCE" checked="checked">
+<label for="Distance">Distance</label>
+<input name="selector" type="radio" id="Weigth" value="WEIGTH">
+<label for="Weigth">weigth</label>
+
+<br>
+from
+
+<select id="fromval" name="fromval">
+	<option value="m">m</option>
+	<option value="mile">mile</option>
+	<option value="inch">inch</option>
+	<option value="Km">Kilometer</option>
+	<option value="feet">Feet</option>
+</select>
+
+<select id="fromvalW" name="fromvalW" style="display:none;">
+	<option value="Kilo">Kilo</option>
+	<option value="gram">gram</option>
+	<option value="pound">pound(lbs)</option>
+	<option value="ton">ton</option>
+	<option value="ounce">ounce(oz)</option>
+</select>
+<br>
+
+<input type="text"  id="input" class="cent input" placeholder="enter value to be converted">
+
+
+
+<br>
+to		
+
+<select id="toval" name="toval" >
+	<option value="m">m</option>
+	<option value="mile">mile</option>
+	<option value="inch">inch</option>
+	<option value="Km">Kilometer</option>
+	<option value="feet">Feet</option>
+</select>
+
+<select id="tovalW" name="tovalW" style="display:none;">
+	<option value="Kilo">Kilo</option>
+	<option value="gram">gram</option>
+	<option value="pound">pound(lbs)</option>
+	<option value="ton">ton</option>
+	<option value="ounce">ounce(oz)</option>
+</select>
+
+<p id ="output" class="cent output">js for popup has not loaded</p>
+
+<br>
+<button id="submitbutton" > calculate</button>
+	</div>
+
+
+
+
+<script type="module" src="script.js"> </script>
+	
+</body>
+</html>
