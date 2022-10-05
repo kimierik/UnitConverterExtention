@@ -32,7 +32,7 @@ function calcul(){
 	var num = document.getElementById("input").value;
 
 	if (isNaN(num)){
-	document.getElementById("output").textContent="input txt please";
+	document.getElementById("output").textContent="Please input numbers";
 	}else{
 	document.getElementById("output").textContent=app.convert_from_table(from,to,num).toFixed(2);
 	}
