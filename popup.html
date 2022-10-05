@@ -10,7 +10,7 @@
 
 	<div id="everything">
 
-<h3 class="cent">Unit converter</h3>
+<h3 class="cent" id="title">Unit converter</h3>
 <input name="selector" type="radio" id="Distance" value="DISTANCE" checked="checked">
 <label for="Distance">Distance</label>
 <input name="selector" type="radio" id="Weigth" value="WEIGTH">
@@ -20,15 +20,15 @@
 from
 
 <select id="fromval" name="fromval">
-	<option value="m">m</option>
+	<option value="meter">m</option>
 	<option value="mile">mile</option>
 	<option value="inch">inch</option>
-	<option value="Km">Kilometer</option>
+	<option value="Kilometer">Kilometer</option>
 	<option value="feet">Feet</option>
 </select>
 
-<select id="fromvalW" name="fromvalW" style="display:none;">
-	<option value="Kilo">Kilo</option>
+<select id="fromvalW" name="fromvalW" >
+	<option value="Kilogram">Kilo</option>
 	<option value="gram">gram</option>
 	<option value="pound">pound(lbs)</option>
 	<option value="ton">ton</option>
@@ -44,15 +44,15 @@ from
 to		
 
 <select id="toval" name="toval" >
-	<option value="m">m</option>
+	<option value="meter">m</option>
 	<option value="mile">mile</option>
 	<option value="inch">inch</option>
-	<option value="Km">Kilometer</option>
+	<option value="Kilometer">Kilometer</option>
 	<option value="feet">Feet</option>
 </select>
 
-<select id="tovalW" name="tovalW" style="display:none;">
-	<option value="Kilo">Kilo</option>
+<select id="tovalW" name="tovalW" >
+	<option value="Kilogram">Kilo</option>
 	<option value="gram">gram</option>
 	<option value="pound">pound(lbs)</option>
 	<option value="ton">ton</option>

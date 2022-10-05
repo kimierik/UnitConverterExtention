@@ -12,17 +12,24 @@ margin:10px;
 }
 
 
+.hide{
+	display:none;
+}
+
+.show{
+	display:inline;
+}
+
+
 .cent{
 text-align:center;
 }
 
 #everything{
-background-image:linear-gradient(rgba(0,0,255,0.5),rgba(255,0,0,0.5));/*rgba(0,155,155,0.5));*/
-
-
+	background-image:linear-gradient(rgba(0,0,255,0.5),rgba(255,0,0,0.5));/*rgba(0,155,155,0.5));*/
 
 	width:100%;
-text-align:center;
+	text-align:center;
 }
 
 
